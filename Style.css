@@ -1,0 +1,37 @@
+
+body{
+    background-color: blue;
+}
+
+form {
+    /*center the form on the page*/
+    margin: 20 auto;
+    width: 400px;
+    /*Form autoline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 400;
+    margin: 400;
+}
+
+form li + li {
+    margin-top: 10em;
+}
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    /* to make that all text fields have the same font settings */
+    margin: 2px;
+    padding: 2px;
+}
